@@ -1,0 +1,7 @@
+.hover {
+  display: none;
+}
+
+.user:hover .hover {
+  display: block;
+}

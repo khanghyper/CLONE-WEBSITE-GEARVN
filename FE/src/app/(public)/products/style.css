@@ -1,0 +1,37 @@
+.slider .progress {
+  height: 5px;
+  left: 25%;
+  right: 25%;
+  position: absolute;
+  border-radius: 5px;
+  background: #17A2B8;
+}
+.range-input {
+  position: relative;
+}
+.range-input input{
+  position: absolute;
+  top: -5px;
+  height: 5px;
+  width: 100%;
+  background: none;
+  -webkit-appearance: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  background: #17A2B8;
+  -webkit-appearance: none;
+  border-radius: 50%;
+  pointer-events: auto;
+
+}
+input[type="range"]::-moz-range-thumb {
+  height: 17px;
+  width: 17px;
+  background: #17A2B8;
+  -moz-appearance: none;
+  border-radius: 50%;
+  pointer-events: auto;
+
+}

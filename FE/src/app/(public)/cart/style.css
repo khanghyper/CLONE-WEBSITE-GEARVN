@@ -1,0 +1,10 @@
+.section-steps .step.is-active .icon{
+  background: #E30019;
+}
+
+.section-steps .step.is-active .icon circle {
+  stroke: #E30019;
+}
+.section-steps .step.is-active .icon path {
+  fill: #ffffff;
+}

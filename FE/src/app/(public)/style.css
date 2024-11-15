@@ -1,0 +1,21 @@
+.menu-link{
+    width: 100%;
+    height: 31px;
+    transition: all 0.1s ease;
+}
+.menu-link:hover {
+    background: red;
+    color: white;
+}
+.menu-link-content{
+    width: 984px;
+    height: 496px;
+    position: absolute;
+    top: 17px;
+    right: 0;
+    visibility: hidden;
+}
+.menu-link:hover .menu-link-content{
+    visibility: visible;
+
+}
